@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,400;0,500;1,400&display=swap" rel="stylesheet">
+<body>
+  <header>
+    <h1>DevConverter</h1>
+  </header>
+  <main>
+    <form action="" id="form">
+        <section class="inputs-container">
+            <div class="form-group">
+                <label for="value-real">Valor a ser convertido</label>
+                <input type="number" placeholder="R$00,00" name="value-real" id="value-real">
+            </div>
+            <div class="form-group">
+                <label for="currency">Escolha a moeda</label>
+                <select name="currency" id="currency">
+                    <option value="">Selecione...</option>
+                    <option value="eur">Euro</option>
+                    <option value="dol">Dólar</option>
+                </select>
+                <input type="number" placeholder="R$00,00" name="value-real" id="value-real">
+            </div>
+        </section>
+        <button type="submit">Converter</button>
+    </form>
+    <h2 id="Result"></h2>
+  </main>
+  <footer>
+    <span>
+        &copy; Agostinho Ferreira, 2024 - Todos os direitos reservados 
+    </span>
+</footer>  
+</body>
+</html>
